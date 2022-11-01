@@ -1,7 +1,10 @@
+#import required libraryies 
 import pandas as pd
-
 import numpy as np
 
 #read data 
 df = pd.read_csv('Salary_Data.csv')
 df.head(30)
+
+
+#check number of rows and coloumns in data
